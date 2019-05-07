@@ -14,6 +14,7 @@
 		FBC0801D22820F980050747D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC0801B22820F980050747D /* LaunchScreen.storyboard */; };
 		FBC0802822820F980050747D /* GuessNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC0802722820F980050747D /* GuessNumberTests.swift */; };
 		FBC0803322820F980050747D /* GuessNumberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC0803222820F980050747D /* GuessNumberUITests.swift */; };
+		FBC08041228228670050747D /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC08040228228670050747D /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FBC0802E22820F980050747D /* GuessNumberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessNumberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC0803222820F980050747D /* GuessNumberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberUITests.swift; sourceTree = "<group>"; };
 		FBC0803422820F980050747D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC08040228228670050747D /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +101,11 @@
 			children = (
 				FBC0801222820F970050747D /* AppDelegate.swift */,
 				FBC0801422820F970050747D /* ViewController.swift */,
+				FBC08040228228670050747D /* Game.swift */,
 				FBC0801622820F970050747D /* Main.storyboard */,
 				FBC0801922820F980050747D /* Assets.xcassets */,
-				FBC0801B22820F980050747D /* LaunchScreen.storyboard */,
 				FBC0801E22820F980050747D /* Info.plist */,
+				FBC0801B22820F980050747D /* LaunchScreen.storyboard */,
 			);
 			path = GuessNumber;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBC0801522820F970050747D /* ViewController.swift in Sources */,
+				FBC08041228228670050747D /* Game.swift in Sources */,
 				FBC0801322820F970050747D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
